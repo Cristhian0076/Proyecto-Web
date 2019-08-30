@@ -11,7 +11,7 @@
     <title>Servi Gas</title>
   </head>
   <body>
-    <h1>Hola BB</h1>
+    <h1></h1>
 
 
 <nav aria-label="breadcrumb">
