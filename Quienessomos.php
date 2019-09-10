@@ -11,17 +11,24 @@
     <title>Servi Gas</title>
   </head>
   <body>
-    <h1></h1>
-
-
-<nav aria-label="breadcrumb">
-  <ol class="breadcrumb">
-    <li class="breadcrumb-item"><a href="Proyecto.php">Inicio</a></li>
-    <li class="breadcrumb-item"><a href="#">Quienes somos</a></li>
-    <li class="breadcrumb-item"><a href="#">Servicios</a></li>
-    <li class="breadcrumb-item"><a href="#">Ubiquenos</a></li>
-    <li class="breadcrumb-item"><a href="formulario.php">Login</a></li>
-  </ol>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="text-primary" href="Proyecto2.php">Servi Gas</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="Proyecto2.php">Inicio <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="Quienessomos.php">Quienes somos</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="formulario.php">Preguntar</a>
+      </li>
+    </ul>
+  </div>
 </nav>
 
     <!-- Optional JavaScript -->
