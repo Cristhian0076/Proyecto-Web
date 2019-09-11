@@ -9,13 +9,13 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-    <link rel="icon" type="image/jpg" href="C:\Users\CRT0076\Desktop\Memoria N\icono gif.gif">
-    <title>Servi Gas</title>
+    <link rel="icon"  href="img/icono.ico">
+    <title>ServiGas del Huila</title>
     
   </head>
   <body>
  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="text-primary" href="Proyecto2.php">Servi Gas</a>
+  <a class="text-primary" href="Proyecto2.php">ServiGas</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>

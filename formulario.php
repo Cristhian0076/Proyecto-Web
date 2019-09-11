@@ -7,12 +7,12 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
+    <link rel="icon"  href="img/icono.ico">
     <title>Servi Gas</title>
   </head>
   <body>
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="text-primary" href="Proyecto2.php">Servi Gas</a>
+  <a class="text-primary" href="Proyecto2.php">ServiGas</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -43,15 +43,14 @@
                  <input type="email" class="form-control" 
                         name="correo"
                  id="exampleInputEmail1" aria-describedby="emailHelp" 
-                 placeholder="Ingrese un correo electronico">
-                    
+                 placeholder="Ingrese tu correo electronico">      
               </div>
               <div class="form-group">
                  
-                 <input type="password" class="form-control" 
-                        name="pass"
-                 id="exampleInputPassword1" 
-                 placeholder="Ingrese una contraseña">
+                 <input type="text" class="form-control" 
+                        name="pregunta"
+                 id="" 
+                 placeholder="Ingrese tu pregunta">
               </div>
               <button type="submit" class="btn btn-outline-info">Enviar</button>
 </form>
