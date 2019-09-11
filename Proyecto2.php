@@ -28,6 +28,9 @@
         <a class="nav-link" href="Quienessomos.php">Quienes somos</a>
       </li>
       <li class="nav-item">
+        <a class="nav-link" href="contactenos.php">Contactenos</a>
+      </li>
+      <li class="nav-item">
         <a class="nav-link" href="formulario.php">Preguntar</a>
       </li>
     </ul>
@@ -54,7 +57,7 @@
         </div>
       </div>
       <div class="carousel-item">
-        <img src="img/1.3.jpg" class="d-block w-100" alt="...">
+        <img src="img/1.5.png" class="d-block w-100" alt="...">
         <div class="carousel-caption d-none d-md-block">
           <p><h5>Instalamos gas a neveras y aires acondicionados<h5></p>
         </div>
@@ -75,7 +78,7 @@
         <div class="col-12 col-md-4 col-lg-4"></div>
         <div class="col-12 col-md-4 col-lg-4">  
        <div class="container">
-       <div class="p-3 mb-2 bg-primary text-white">Servi Gas S.A.S</div>
+       <div class="p-3 mb-2 bg-primary text-white">ServiGas del Huila S.A.S</div>
        <div class="col-12 col-md-4 col-lg-4"></div>
 </div>
  </div>

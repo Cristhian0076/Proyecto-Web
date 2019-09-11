@@ -26,6 +26,9 @@
         <a class="nav-link" href="Quienessomos.php">Quienes somos</a>
       </li>
       <li class="nav-item">
+        <a class="nav-link" href="contactenos.php">Contactenos</a>
+      </li>
+      <li class="nav-item">
         <a class="nav-link" href="formulario.php">Preguntar</a>
       </li>
     </ul>
@@ -37,7 +40,7 @@
         <div class="text-center">
          <img src="img/1.4.png" class="img-fluid" alt="Responsive image">
        </div>
-        <form action="base.php" method="post">
+        <form action="base2.1.php" method="POST">
               <div class="form-group">
                 
                  <input type="email" class="form-control" 

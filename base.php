@@ -48,7 +48,7 @@ if($_POST)
 
 </nav>
 <div class="alert alert-primary" role="alert">
-    Te responderemso tu pregunta al correo que nos enviaste.
+    Te responderemos tu pregunta al correo que nos enviaste.
 </div>
 </div>
 <div class="col-12 col-md-4 col-lg-4"></div>
