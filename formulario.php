@@ -60,8 +60,17 @@
 </nav>
 
         </div>
-        <div class="col-12 col-md-4 col-lg-4"></div>
+        <div class="col-12 col-md-4 col-lg-4"></div>. <br>
 
+
+</div>
+<footer class="page-footer font-small blue">
+<div class="footer-copyright text-center py-3 bg-primary text-white">© 2019 Copyright: CristhianNet</div>
+</div>
+</footer>
+      
+</div>
+ </div>
     
 
     <!-- Optional JavaScript -->

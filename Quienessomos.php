@@ -33,6 +33,10 @@
     </ul>
   </div>
 </nav>
+<footer class="page-footer font-small blue">
+<div class="footer-copyright text-center py-3 bg-primary text-white">© 2019 Copyright: CristhianNet</div>
+</div>
+</footer>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
