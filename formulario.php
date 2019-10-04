@@ -29,6 +29,9 @@
         <a class="nav-link" href="contactenos.php">Contactenos</a>
       </li>
       <li class="nav-item">
+        <a class="nav-link" href="productos.php">Productos</a>
+      </li>
+      <li class="nav-item">
         <a class="nav-link" href="formulario.php">Preguntar</a>
       </li>
     </ul>

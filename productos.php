@@ -1,3 +1,12 @@
+<?php
+
+$host = "localhost";
+$user = "root";
+$contra = "";
+$bd  = "base";
+
+$conectar=mysqli_connect($host,$user,$contra,$bd);
+?>
 <!doctype html>
 <html lang="en">
   <head>
@@ -11,7 +20,7 @@
     <title>Servi Gas</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <a class="text-primary" href="Proyecto2.php">ServiGas</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -36,26 +45,41 @@
     </ul>
   </div>
 </nav>
-<div class="card-group">
-  <div class="card">
-    <img class="card-img-top" src="img/mision.jpg" alt="Card image cap">
-    <div class="card-body">
-      <h2 class="card-title">Misión</h2>
-      <h5 class="card-text">Brindar servicios y soluciones corporativas; superando las expectativas de nuestros clientes, de manera eficiente y responsable con la seguridad</h5>
-    </div>
-  </div>
-  <div class="card">
-    <img class="card-img-top" src="img/vision.jpg" alt="Card image cap">
-    <div class="card-body">
-      <h2 class="card-title">Visión</h2>
-      <h5 class="card-text">Ser una empresa líder en crecimiento y rentabilidad sustentable, implementando la mejora continua en todos nuestros procesos, con un equipo de personas orgullosas de pertenecer a la misma.</h5>
-    </div>
-  </div>
 </div>
-<footer class="page-footer font-small blue">
-<div class="footer-copyright text-center py-3 bg-primary text-white">© 2019 Copyright: CristhianNet</div>
+<table class="table">
+  <thead>
+
+    <tr><br>
+      <th scope="col">ID</th>
+      <th scope="col">Nombre del producto</th>
+      <th scope="col">Codigo</th>
+      <th scope="col">Precio</th>
+    </tr>
+
+<?php
+$sql="SELECT * FROM producto";
+$result=mysqli_query($conectar,$sql);
+
+while($mostrar=mysqli_fetch_array($result)){
+?>
+
+  </thead>
+  <tbody>
+    <tr>
+      <td><?php echo $mostrar['id']?></td>
+      <td><?php echo $mostrar['nombre']?></td>
+      <td><?php echo $mostrar['codigo']?></td>
+      <td><?php echo $mostrar['precio']?></td>
+      <td>
+      </td>
+    </tr>
+<?php
+}
+
+?>
+      
 </div>
-</footer>
+ </div>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
