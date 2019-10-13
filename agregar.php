@@ -2,16 +2,10 @@
 require 'conexion.php';
 
     $nombre  = $_POST['nombre'];
-    $usuario  = $_POST['usuario'];
-    $contrasena =$_POST['contrasena'];
-    $direccion =$_POST['direccion'];
-    $edad =$_POST['edad'];
-    $genero =$_POST['genero'];
-
-
-    echo("$usuario y $contrasena");
+    $codigo  = $_POST['codigo'];
+    $precio =$_POST['precio'];
    
-   $insertar = "INSERT INTO usuarios2 VALUES (null, '$nombre', '$usuario', '$contrasena', '$direccion', '$edad', '$genero')";
+   $insertar = "INSERT INTO producto VALUES (null, '$nombre', '$codigo', '$precio')";
    
    $query = mysqli_query($conectar, $insertar);
    
@@ -20,6 +14,7 @@ require 'conexion.php';
       echo "<script> alert('registro correcto');
        location.href = 'lista.php';
       </script>";
+      
    
    }else{
        echo "<script> alert('registro incorrecto');

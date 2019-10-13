@@ -1,19 +1,15 @@
 <?php
 require 'conexion.php';
 
-    $name =$_POST['nombre'];
-    $usuario  = $_POST['usuario'];
-    $contrasena  = $_POST['contrasena'];
-    $direccion  = $_POST['direccion'];
-    $edad =$_POST['edad'];
-    $genero =$_POST['genero'];
+    $nombre  = $_POST['nombre'];
+    $codigo  = $_POST['codigo'];
+    $precio =$_POST['precio'];
     $id=$_POST['id'];
 
-    echo("$usuario y $contrasena");
-   
-   $insertar = "UPDATE usuarios2 SET id_usuario='',nombre='name',usuario='$usuario',
-   contrasena='$contrasena',direccion='$direccion',edad='$edad',genero='$genero' 
-   WHERE id_usuario='$id';  ";
+
+   $insertar = "UPDATE producto SET id='',nombre='$nombre',codigo='$codigo',
+   precio='$precio'
+   WHERE id= '$id'; ";
    
    $query = mysqli_query($conectar, $insertar);
    

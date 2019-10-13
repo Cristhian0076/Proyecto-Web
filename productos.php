@@ -16,7 +16,7 @@ $conectar=mysqli_connect($host,$user,$contra,$bd);
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="icon"  href="img/icono.ico">
+    <link rel="icon"  href="img/icono.png">
     <title>Servi Gas</title>
   </head>
   <body>
@@ -38,6 +38,9 @@ $conectar=mysqli_connect($host,$user,$contra,$bd);
       </li>
       <li class="nav-item">
         <a class="nav-link" href="productos.php">Productos</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="lista.php">Lista Productos</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="formulario.php">Preguntar</a>

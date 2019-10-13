@@ -7,7 +7,7 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="icon"  href="img/icono.ico">
+    <link rel="icon"  href="img/icono.png">
     <title>Servi Gas</title>
   </head>
   <body>
@@ -58,7 +58,7 @@
                  id="" 
                  placeholder="Ingrese tu pregunta">
               </div>
-              <button type="submit" class="btn btn-outline-info">Enviar</button>
+              <input type="submit" name="enviar">
 </form>
 </nav>
 

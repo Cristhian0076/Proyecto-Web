@@ -11,7 +11,7 @@ $conectar=mysqli_connect($host,$user,$contra,$db);
 
 
 $id=$_REQUEST['ID'];
-$sql="DELETE FROM usuarios2 WHERE id_usuario=$id;";
+$sql="DELETE FROM producto WHERE id=$id;";
 $result=mysqli_query($conectar,$sql);
 
 echo $sql;
